@@ -1,5 +1,5 @@
 const email = (usuário) => {
-const criarEmailTrybe = usuário.toLowerCase().split('').join('_')
+const criarEmailTrybe = usuário.toLowerCase().split(' ').join('_')
 const emailTrybe = {Nome: usuário, Email: `${criarEmailTrybe}@trybe.com`};
 return emailTrybe;
 };
